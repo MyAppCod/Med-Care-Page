@@ -1,0 +1,130 @@
+/* =============================================Navbar====================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+.page, .navbar-brand, .navbar-nav {
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+a {
+    text-decoration: none;
+    color: rgb(55, 167, 211);
+    font-weight: bolder;
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+ul li {
+    padding: 1em 4.5em;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 0.4em 1.5em;
+}
+
+#img1 {
+    float: right;
+    width: 550px;
+    height: 550px;
+    border-radius: 500px;
+    position: absolute;
+    z-index: -1;
+    top: -220px;
+    left: 520px;
+}
+
+#img2 {
+    padding: 0px 65px;
+}
+
+#img3 {
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 50px;
+}
+
+#highlight {
+    color: rgb(55, 167, 211);
+    font-weight: 600;
+}
+
+.section2 {
+    background-color: rgb(204, 231, 236);
+    height: 350px;
+    padding: 2em 8em;
+}
+
+.thumbnail {
+    border-radius: 60px;
+    width: 280px;
+    height: 290px;
+    padding: 2em 3em;
+}
+
+.thumbnail:hover {
+    background-color: lightcyan;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.title {
+    text-align: center;
+}
+
+#box {
+    position: relative;
+    background-color: rgb(55, 167, 211);
+    border-radius: 60px;
+    color: white;
+}
+
+#section4 {
+    padding: 0.8em 5em;
+}
+
+#img4 {
+    float: right;
+    padding-right: 100px;
+}
+
+#section5 {
+ padding-left: 100px;
+}
+
+#save {
+    padding: 1% 50% 0% 50%;
+}
+
+
+
+.section6 {
+    background-color: rgb(204, 231, 236);
+    height: auto;
+    padding: 2em 8em;
+}
+
+#img5 {
+    position: relative;
+    width: 350px;
+    height: 200px;
+    top: -65px;
+    z-index: 1;
+}
+
+.caption {
+    position:relative;
+    top: -65px;
+    z-index: 1;
+    text-align: center;   
+}
